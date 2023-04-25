@@ -1,9 +1,9 @@
 import PropTypes from 'prop-types';
 
-export const FriendListItem = ({ id, name, isOnline, avatar }) => {
+export const FriendListItem = ({ id, name, status, src }) => {
     return <li className="item" key={id}>
-                <span className="status">{isOnline}</span>
-                <img className="avatar" src={avatar} alt="avatar" width="48" />
+                <span className="status">{status}</span>
+                <img className="avatar" src={src} alt="avatar" width="48" />
                 <p className="name">{ name }</p>
             </li>
 }
