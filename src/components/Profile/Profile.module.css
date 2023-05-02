@@ -11,10 +11,8 @@ p{
 
 .description {
     padding-top: 30px;
-       
-        padding-left: 32px;
-        padding-right: 32px;
-    
+    padding-left: 32px;
+    padding-right: 32px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -23,13 +21,13 @@ p{
 }
 
 .avatar {
-width: 150px;
-border-radius: 50%;
+    width: 150px;
+    border-radius: 50%;
 }
 
 .name {
-color: #3a3737;
-margin-bottom: 8px;
+    color: #3a3737;
+    margin-bottom: 8px;
 }
 
 .tag {
@@ -47,9 +45,8 @@ margin-bottom: 8px;
     align-items: center;
     padding: 0;
     background-color: aquamarine;
-    
     font-weight: 500;
-        font-size: 16px;
+    font-size: 16px;
 }
 
 li {
@@ -62,5 +59,5 @@ span {
 }
 
 .quantity {
-font-weight: 700;
+    font-weight: 700;
 }

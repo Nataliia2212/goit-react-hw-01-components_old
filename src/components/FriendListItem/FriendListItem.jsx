@@ -8,7 +8,6 @@ export const FriendListItem = ({ id, name, status, avatar }) => {
                 <p className="name">{ name }</p>
             </li>
 }
-
  
 
 FriendListItem.propTypes = {
